@@ -1,10 +1,11 @@
 # MODELROGS DISPLAY
 
-**MODELROGS DISPLAY is a specialised project derived from MODELROGS TEMPO.**
+**MODELROGS DISPLAY** is a separate firmware project within the MODELROGS family.
 
-It belongs to the MODELROGS project family and follows the shared direction and foundations established by TEMPO, while maintaining its own repository for DISPLAY-specific firmware, documentation and releases.
+MODELROGS is the umbrella name for the project family. MODELROGS TEMPO was the first firmware project released under this name; MODELROGS DISPLAY is another project at the same level, with its own firmware, documentation and release cycle.
 
-- Parent project: [MODELROGS TEMPO](https://github.com/Sqweedly/modelrogs-tempo) (repository to be created)
-- DISPLAY repository: [Sqweedly/modelrogs-display](https://github.com/Sqweedly/modelrogs-display)
+DISPLAY is not a child or derivative of TEMPO.
 
-The parent/derivative relationship is conceptual and maintained through documentation and links. The two GitHub repositories remain independent.
+➡️ **Repository:** https://github.com/Sqweedly/modelrogs-display
+
+For the TEMPO project, see the [MODELROGS TEMPO repository](https://github.com/JBCirius/Modelrogs-Tempo).
