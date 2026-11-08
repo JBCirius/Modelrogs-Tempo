@@ -50,18 +50,21 @@ The projects are kept in separate Git repositories. This makes it possible to ev
 
 ## Firmware
 
-The `firmware/` directory contains the source code currently prepared for this repository.
+The `firmware/` directory contains the source code and the supplied flashable firmware binary.
 
 ### TEST 12 — development build
 
-The current source file is [`Modelrogs_Tempo_TEST12.cpp`](firmware/Modelrogs_Tempo_TEST12.cpp).
+The current source file is [`Modelrogs_Tempo_TEST12.cpp`](firmware/Modelrogs_Tempo_TEST12.cpp).  
+A firmware binary is also provided: [`MODELROGS-Tempo_12.0.bin`](firmware/bin/MODELROGS-Tempo_12.0.bin).
 
 This test version includes two notable changes:
 
 1. **Wi-Fi setup screen:** when the device cannot connect to Wi-Fi, the `WIFI KO` screen remains visible and guides the user to connect to the `MODELROGS Tempo` configuration access point.
 2. **Display settings without reboot:** brightness and day/night settings are saved and applied immediately. A restart is only requested when Wi-Fi credentials are changed.
 
-See [TEST 12 details and test procedure](docs/FIRMWARE-TEST12.md).
+See [TEST 12 details and test procedure](docs/FIRMWARE-TEST12.md) and the [first installation guide](docs/INSTALLATION.md).
+
+> **Version correspondence:** the supplied binary is named `12.0`, while the source is identified as `TEST12`. Confirm that this binary was built from this exact source revision and for the intended GeekMagic hardware before treating them as a matched release.
 
 ### Before installing
 
@@ -77,6 +80,7 @@ See [TEST 12 details and test procedure](docs/FIRMWARE-TEST12.md).
 | Document | Description |
 |---|---|
 | [Project architecture](docs/ARCHITECTURE.md) | Explains the TEMPO → DISPLAY relationship and repository responsibilities. |
+| [First installation and basic setup](docs/INSTALLATION.md) | Wi-Fi setup, city, brightness, night mode and troubleshooting after firmware upload. |
 | [TEST 12 firmware notes](docs/FIRMWARE-TEST12.md) | Describes the changes, validation status and suggested hardware tests. |
 | [MODELROGS DISPLAY](projects/MODELROGS-DISPLAY.md) | Introduces the derivative project and links to its repository. |
 | [Changelog](CHANGELOG.md) | Tracks repository changes. |
